@@ -111,7 +111,7 @@ Si mi software no está diseñado específicamente para IT/OT, podría adaptarlo
 
 **Si no has utilizado THD, ¿cómo podrías implementarlas para enriquecer tu solución?**
 
-Si no he utilizado estas tecnologías o quiero implementarlas:
+### Si no he utilizado estas tecnologías o quiero implementarlas:
 
 Si no he implementado aún todas estas tecnologías, podría integrar las siguientes en mi proyecto para enriquecer la solución:
 
