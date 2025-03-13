@@ -116,10 +116,15 @@ Si no he utilizado estas tecnologías o quiero implementarlas:
 Si no he implementado aún todas estas tecnologías, podría integrar las siguientes en mi proyecto para enriquecer la solución:
 
 -IoT: Instalar sensores en equipos industriales que envíen datos a mi plataforma para su análisis en tiempo real.
+
 -Machine Learning: Incorporar modelos de predicción que identifiquen patrones en los datos de los dispositivos conectados y ajusten automáticamente los procesos para optimizar recursos.
+
 -Nube: Migrar la infraestructura a la nube para mejorar la escalabilidad y la accesibilidad del software.
+
 -Big Data: Implementar tecnologías de procesamiento de datos masivos como Apache Hadoop o Apache Spark para manejar grandes volúmenes de datos generados en la industria.
+
 -Blockchain: Usar plataformas como Ethereum o Hyperledger para garantizar la autenticidad de los registros operacionales.
+
 -Automatización: Integrar robots o sistemas automatizados que trabajen en conjunto con el software para mejorar la eficiencia operativa.
 
 Al integrar estas tecnologías, se incrementaría la inteligencia, escalabilidad, seguridad y eficiencia del sistema, brindando a las empresas la capacidad de tener un control en tiempo real, predecir problemas antes de que ocurran y tomar decisiones informadas para optimizar sus operaciones.
