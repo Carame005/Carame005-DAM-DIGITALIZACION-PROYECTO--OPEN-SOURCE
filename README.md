@@ -1,41 +1,16 @@
 # DAM-DIGITALIZACION-PROYECTO--
-Aquí tienes una descripción para tu proyecto de bot de Discord en Python:  
-
 ---
 
 # **Descripción del Proyecto: Bot de Discord en Python**  
 
-## **Introducción**  
-Este proyecto consiste en el desarrollo de un bot para Discord utilizando Python. El bot está diseñado para gestionar diversas funciones dentro de un servidor, con características avanzadas como el manejo de archivos JSON para almacenamiento de datos y la capacidad de guardar y cargar imágenes de manera eficiente.  
+## Motivación
+Bienvenidos a mi primer código open-source.Esto es un script en python el cual sirve para programar un bot de discord.La principal motivación para hacer este proyecto es la de poder tener mi propio bot para invitarlo a servidores que tenga con amigos y divertirnos probandolo y usando sus distintas funcionalidades, también está planeado para extender esas funcionalidades haciéndolo versátil en cuanto a lo que puede hacer.Mi objetivo principal con este proyecto es motivar a aquellos programadores novatos que quieran trabajar con discord, partiendo de un código base que puedan descargar, probar y editar a gusto personal, también pueden sugerir mejoras a lo largo del tiempo para modificar el código original.
 
-## **Características Principales**  
+## Instrucciones
+Las instrucciones son claras y vienen explicadas en el propio código pero haré un resumen aquí.El archivo `config.py` es el que albergará el token de tu bot de discord, solo debes pegarlo en formato `" "`.
+Una vez hecho desde el `main` puedes correr el script y ya tendrás el bot activo. He de avisar que si los comandos no aparecen rápidamente es porque discord aveces tarda en recibir los datos, sólo debes esperar unos minutos y listo.
 
-- **Manejo de JSON:**  
-  - Almacenamiento y recuperación de datos como configuraciones, estadísticas de usuario y preferencias personalizadas.  
-  - Implementación de un sistema de base de datos ligera basada en JSON para facilitar la persistencia de información.  
-
-- **Gestión de Imágenes:**  
-  - Capacidad para recibir, almacenar y recuperar imágenes enviadas por los usuarios.  
-  - Soporte para diferentes formatos de imagen, con optimización para reducir el consumo de almacenamiento.  
-
-- **Comandos Personalizados:**  
-  - Integración de comandos interactivos para mejorar la experiencia del usuario.  
-  - Respuestas automatizadas basadas en eventos o menciones dentro del servidor.  
-
-- **Estructura Modular:**  
-  - Organización del código en módulos para facilitar su mantenimiento y escalabilidad.  
-  - Implementación de eventos y listeners para mejorar la eficiencia del bot.  
-
-## **Tecnologías Utilizadas**  
-- **Lenguaje:** Python  
-- **Librerías:** discord.py, json, os para gestión de archivos  
-- **Almacenamiento:** Archivos JSON para persistencia de datos  
-
-## **Casos de Uso**  
-- Registro de datos personalizados de los usuarios en formato JSON.  
-- Respuesta automática con imágenes almacenadas previamente.  
-- Administración y personalización de imágenes dentro del servidor.  
-
-Este bot es ideal para servidores de Discord que necesiten funcionalidades avanzadas sin depender de bases de datos externas.  
+## Ejemplos
+Los comandos que el bot posee no son tan complejos. Por ejemplo si usas `!savememe` y adjuntas una imagen esta se guardará automaticamente en una carpeta con un path base cuyo nombre puedes cambiar desde `config.py`, este path base alberga tambien el ID del servidor para que así las carpetas no se solapen entre si y se pueda usar el bot en varios servidores a la vez sin problemas.Para más informacion sobre esto pueden acceder al apartado Wiki del repositorio
 
 ---
