@@ -1,7 +1,10 @@
 # **Descripción del Proyecto: Bot de Discord en Python**  
 
-## Motivación  
 ¡Bienvenidos a mi primer proyecto open-source! Se trata de un script en Python diseñado para programar un bot de Discord.  
+
+Es un bot simple que maneja comandos slash simples con la peculiaridad de poseer una funcionalidad que te permite guardar imágenes en una carpeta local del dispositivo que inice el script.
+
+## Motivación  
 
 La principal razón para desarrollar este proyecto fue la necesidad de contar con un bot personalizado para mis servidores y los de mis amigos. Quería algo con diversas funcionalidades que pudiéramos probar y expandir con el tiempo.  
 
@@ -14,6 +17,17 @@ Las instrucciones detalladas están en el propio código, pero aquí tienes un r
 2. En el mismo archivo, puedes personalizar la configuración, como la carpeta donde se guardarán los archivos.  
 3. Ejecuta el script desde el archivo `main.py` para activar el bot.  
 4. **Nota:** Si los comandos no responden inmediatamente, puede deberse a un pequeño retraso en la sincronización con Discord. Solo espera unos minutos y deberían aparecer.  
+
+## Videos de ejemplo
+![Carameloh2](https://github.com/user-attachments/assets/3db09fe5-dfd1-43e2-976f-5b3e046c6e38)
+
+Este es Carameloh, mi bot de prueba y el cual nos mostrará el cómo se usa este script en discord.
+
+### Colocar el token e iniciar el bot
+![Ejemplo de uso](https://github.com/user-attachments/assets/09af6fc5-bee6-49d7-9072-993a6538aead)
+
+### Usar los comandos slash del bot
+![EJemplo](https://github.com/user-attachments/assets/9de739ff-cea1-4f77-9f15-de55bd3dd645)
 
 ## Ejemplo de Funcionalidad  
 Uno de los comandos básicos del bot es:  
