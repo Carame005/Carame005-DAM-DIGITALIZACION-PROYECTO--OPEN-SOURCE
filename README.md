@@ -1,16 +1,28 @@
-# DAM-DIGITALIZACION-PROYECTO--
----
-
 # **Descripción del Proyecto: Bot de Discord en Python**  
 
-## Motivación
-Bienvenidos a mi primer código open-source.Esto es un script en python el cual sirve para programar un bot de discord.La principal motivación para hacer este proyecto es la de poder tener mi propio bot para invitarlo a servidores que tenga con amigos y divertirnos probandolo y usando sus distintas funcionalidades, también está planeado para extender esas funcionalidades haciéndolo versátil en cuanto a lo que puede hacer.Mi objetivo principal con este proyecto es motivar a aquellos programadores novatos que quieran trabajar con discord, partiendo de un código base que puedan descargar, probar y editar a gusto personal, también pueden sugerir mejoras a lo largo del tiempo para modificar el código original.
+## Motivación  
+¡Bienvenidos a mi primer proyecto open-source! Se trata de un script en Python diseñado para programar un bot de Discord.  
 
-## Instrucciones
-Las instrucciones son claras y vienen explicadas en el propio código pero haré un resumen aquí.El archivo `config.py` es el que albergará el token de tu bot de discord, solo debes pegarlo en formato `" "`.
-Una vez hecho desde el `main` puedes correr el script y ya tendrás el bot activo. He de avisar que si los comandos no aparecen rápidamente es porque discord aveces tarda en recibir los datos, sólo debes esperar unos minutos y listo.
+La principal razón para desarrollar este proyecto fue la necesidad de contar con un bot personalizado para mis servidores y los de mis amigos. Quería algo con diversas funcionalidades que pudiéramos probar y expandir con el tiempo.  
 
-## Ejemplos
-Los comandos que el bot posee no son tan complejos. Por ejemplo si usas `!savememe` y adjuntas una imagen esta se guardará automaticamente en una carpeta con un path base cuyo nombre puedes cambiar desde `config.py`, este path base alberga tambien el ID del servidor para que así las carpetas no se solapen entre si y se pueda usar el bot en varios servidores a la vez sin problemas.Para más informacion sobre esto pueden acceder al apartado Wiki del repositorio
+Además, este proyecto está pensado para ayudar a programadores novatos interesados en el desarrollo de bots para Discord. Con este código base, podrán descargarlo, probarlo y modificarlo a su gusto. También estoy abierto a sugerencias y mejoras para seguir evolucionando el bot con el tiempo.  
+
+## Instrucciones de Uso  
+Las instrucciones detalladas están en el propio código, pero aquí tienes un resumen:  
+
+1. Abre el archivo `config.py` y pega el **token de tu bot** en formato de cadena (`"tu_token_aquí"`).  
+2. En el mismo archivo, puedes personalizar la configuración, como la carpeta donde se guardarán los archivos.  
+3. Ejecuta el script desde el archivo `main.py` para activar el bot.  
+4. **Nota:** Si los comandos no responden inmediatamente, puede deberse a un pequeño retraso en la sincronización con Discord. Solo espera unos minutos y deberían aparecer.  
+
+## Ejemplo de Funcionalidad  
+Uno de los comandos básicos del bot es:  
+
+- `!savememe`: Si adjuntas una imagen al usar este comando, el bot la guardará automáticamente en una carpeta específica.  
+  - La ubicación de almacenamiento se define en `config.py`.  
+  - Las imágenes se organizan por el ID del servidor para evitar conflictos al usar el bot en múltiples servidores.  
+
+Para más información sobre funcionalidades adicionales, consulta el apartado **Wiki** del repositorio.  
 
 ---
+
