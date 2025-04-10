@@ -2,23 +2,28 @@ import discord
 import random
 from discord.ext import commands
 
+# List of playful roast messages in English
 roasts = [
-    "¿Sabías que las piedras tienen más cerebro que tú?",
-    "Si fueras un vegetal, serías una cebolla: molesto y con muchas capas.",
-    "Eres como un software sin actualizaciones: lento y obsoleto.",
-    "Tu cerebro es como un disco duro: lleno, pero sin espacio para nada útil.",
-    "Te seguiría el resto de mi vida, pero mi perro me pidió que no lo hiciera.",
-    "Tienes la misma cantidad de sentido común que un paraguas en el desierto.",
-    "Eres la razón por la que algunos animales se comen a sus crías.",
-    "Te miro y veo cómo la evolución retrocede.",
+    "Did you know that rocks have more brain cells than you?",
+    "If you were a vegetable, you'd be an onion: annoying and with too many layers.",
+    "You're like outdated software: slow and obsolete.",
+    "Your brain is like a hard drive: full, but with no space for anything useful.",
+    "I'd follow you for the rest of my life, but my dog asked me not to.",
+    "You have as much common sense as an umbrella in the desert.",
+    "You're the reason some animals eat their young.",
+    "I look at you and see evolution going backwards.",
 ]
 
 class RoastCommands(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-    #Roast command
-    @commands.command(name="roast", help="Insulta a un usuario de manera divertida")
+
+    # Roast command
+    @commands.command(name="roast", help="Sends a playful insult to a user")
     async def roast(self, ctx, user: discord.Member):
+        """
+        Sends a randomly selected roast message mentioning the specified user.
+        """
         roast_message = random.choice(roasts)
         await ctx.send(f"{user.mention}, {roast_message}")
 

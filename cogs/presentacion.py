@@ -7,18 +7,25 @@ class Presentation(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        print("Comando de presentación cargado.")
-    #Presentation command
-    @commands.hybrid_command(name="presentacion", description="El bot se presenta con un mensaje")
+        """
+        Prints a message to the console when the cog is loaded and the bot is ready.
+        """
+        print("Presentation command loaded.")
+
+    # Presentation command
+    @commands.hybrid_command(name="presentacion", description="The bot introduces itself with a message")
     async def presentacion(self, ctx):
+        """
+        Sends an embedded message introducing the bot and explaining how to use commands.
+        """
         embed = discord.Embed(
-            title="¡Hola! Soy tu bot 🤖",
-            description="Estoy aquí para ayudarte con comandos divertidos y útiles.\n\n"
-                        "Puedes probar mis comandos con `/` o `!`.\n"
-                        "Por ejemplo: `/roast`, `/random_meme`, `/add_keyword`.",
+            title="Hello! I'm your bot 🤖",
+            description="I'm here to help you with fun and useful commands.\n\n"
+                        "You can try my commands using `/` or `!`.\n"
+                        "For example: `/roast`, `/random_meme`, `/add_keyword`.",
             color=discord.Color.blue()
         )
-        embed.set_footer(text="¡Espero ser útil en tu servidor!")
+        embed.set_footer(text="I hope to be useful in your server!")
 
         await ctx.send(embed=embed)
 
