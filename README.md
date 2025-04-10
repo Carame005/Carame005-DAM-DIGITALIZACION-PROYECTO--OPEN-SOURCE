@@ -11,6 +11,17 @@ La principal razón para desarrollar este proyecto fue la necesidad de contar co
 Además, este proyecto está pensado para ayudar a programadores novatos interesados en el desarrollo de bots para Discord. Con este código base, podrán descargarlo, probarlo y modificarlo a su gusto. También estoy abierto a sugerencias y mejoras para seguir evolucionando el bot con el tiempo.  
 
 ## Instrucciones de Uso  
+### Requisitos previos
+1. Asegurate de tener instalado `git`
+2. Tener instalado python 3.8 o más
+3. `pip` instalador de paquetes de python
+
+### Clona el repo
+```bash
+git clone https://github.com/Carame005/Carame005-DAM-DIGITALIZACION-PROYECTO--OPEN-SOURCE.git
+```
+
+### Código
 Las instrucciones detalladas están en el propio código, pero aquí tienes un resumen:  
 
 1. Abre el archivo `config.py` y pega el **token de tu bot** en formato de cadena (`"tu_token_aquí"`).  
