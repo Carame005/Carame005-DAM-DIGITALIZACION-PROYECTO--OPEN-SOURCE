@@ -1,53 +1,54 @@
-# **Descripción del Proyecto: Bot de Discord en Python**  
+Aquí tienes el **README** traducido al inglés:
 
-¡Bienvenidos a mi primer proyecto open-source! Se trata de un script en Python diseñado para programar un bot de Discord.  
+---
 
-Es un bot simple que maneja comandos slash simples con la peculiaridad de poseer una funcionalidad que te permite guardar imágenes en una carpeta local del dispositivo que inice el script.
+# **Project Description: Discord Bot in Python**  
 
-## Motivación  
+Welcome to my first open-source project! This is a Python script designed to program a Discord bot.  
 
-La principal razón para desarrollar este proyecto fue la necesidad de contar con un bot personalizado para mis servidores y los de mis amigos. Quería algo con diversas funcionalidades que pudiéramos probar y expandir con el tiempo.  
+It’s a simple bot that handles basic slash commands, with the unique feature of being able to save images to a local folder on the device that runs the script.
 
-Además, este proyecto está pensado para ayudar a programadores novatos interesados en el desarrollo de bots para Discord. Con este código base, podrán descargarlo, probarlo y modificarlo a su gusto. También estoy abierto a sugerencias y mejoras para seguir evolucionando el bot con el tiempo.  
+## Motivation  
 
-## Instrucciones de Uso  
-### Requisitos previos
-1. Asegurate de tener instalado `git`
-2. Tener instalado python 3.8 o más
-3. `pip` instalador de paquetes de python
+The main reason for developing this project was the need for a customized bot for my servers and my friends' servers. I wanted something with various features that we could test and expand over time.  
 
-### Clona el repo
+Additionally, this project is meant to help novice programmers interested in Discord bot development. With this base code, they can download it, try it out, and modify it as they like. I'm also open to suggestions and improvements to continue evolving the bot over time.  
+
+## Usage Instructions  
+### Prerequisites
+1. Make sure you have `git` installed.
+2. Have Python 3.8 or higher installed.
+3. `pip` Python package manager.
+
+### Clone the repository
 ```bash
 git clone https://github.com/Carame005/Carame005-DAM-DIGITALIZACION-PROYECTO--OPEN-SOURCE.git
 ```
 
-### Código
-Las instrucciones detalladas están en el propio código, pero aquí tienes un resumen:  
+### Code
+Detailed instructions are within the code itself, but here’s a summary:  
 
-1. Abre el archivo `config.py` y pega el **token de tu bot** en formato de cadena (`"tu_token_aquí"`).  
-2. En el mismo archivo, puedes personalizar la configuración, como la carpeta donde se guardarán los archivos.  
-3. Ejecuta el script desde el archivo `main.py` para activar el bot.  
-4. **Nota:** Si los comandos no responden inmediatamente, puede deberse a un pequeño retraso en la sincronización con Discord. Solo espera unos minutos y deberían aparecer.  
+1. Open the `config.py` file and paste your **bot token** as a string (`"your_token_here"`).  
+2. In the same file, you can customize settings such as the folder where files will be saved.  
+3. Run the script from the `main.py` file to activate the bot.  
+4. **Note:** If the commands don’t respond immediately, it may be due to a slight delay in synchronization with Discord. Just wait a few minutes and they should appear.  
 
-## Videos de ejemplo
+## Example Videos
 ![Carameloh2](https://github.com/user-attachments/assets/3db09fe5-dfd1-43e2-976f-5b3e046c6e38)
 
-Este es Carameloh, mi bot de prueba y el cual nos mostrará el cómo se usa este script en discord.
+This is Carameloh, my test bot, which will show us how to use this script on Discord.
 
-### Colocar el token e iniciar el bot
-![Ejemplo de uso](https://github.com/user-attachments/assets/09af6fc5-bee6-49d7-9072-993a6538aead)
+### Insert the token and start the bot
+![Usage example](https://github.com/user-attachments/assets/09af6fc5-bee6-49d7-9072-993a6538aead)
 
-### Usar los comandos slash del bot
-![EJemplo](https://github.com/user-attachments/assets/9de739ff-cea1-4f77-9f15-de55bd3dd645)
+### Use the bot’s slash commands
+![Example](https://github.com/user-attachments/assets/9de739ff-cea1-4f77-9f15-de55bd3dd645)
 
-## Ejemplo de Funcionalidad  
-Uno de los comandos básicos del bot es:  
+## Feature Example  
+One of the bot's basic commands is:  
 
-- `!savememe`: Si adjuntas una imagen al usar este comando, el bot la guardará automáticamente en una carpeta específica.  
-  - La ubicación de almacenamiento se define en `config.py`.  
-  - Las imágenes se organizan por el ID del servidor para evitar conflictos al usar el bot en múltiples servidores.  
+- `!savememe`: If you attach an image when using this command, the bot will automatically save it to a specific folder.  
+  - The storage location is defined in `config.py`.  
+  - Images are organized by the server ID to avoid conflicts when using the bot on multiple servers.  
 
-Para más información sobre funcionalidades adicionales, consulta el apartado **Wiki** del repositorio.  
-
----
-
+For more information on additional features, refer to the **Wiki** section of the repository.  
